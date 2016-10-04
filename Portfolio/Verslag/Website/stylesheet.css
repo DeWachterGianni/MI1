@@ -1,0 +1,41 @@
+/* BACKGROUND */
+
+body {
+    background-color: darkgrey;
+}
+
+/* EXTRA*/
+
+/* HOVERING TABLES*/
+
+li a:hover {
+    background: black;
+}
+
+/* NAVIGATION BAR */
+.ulnav {
+    position: fixed;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    background-color: dimgray;
+}
+
+.linav {
+    float: left; 
+    border-right: 1px solid white;
+}
+
+.lia {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 15px 25px;
+}
+
+/* UNDER NAVIGATION BAR */
+
+div {
+    padding-top: 75px;
+}
