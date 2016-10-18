@@ -39,3 +39,16 @@ li a:hover {
 div {
     padding-top: 75px;
 }
+
+/* TABLE FROM THE MENU SECTION*/
+
+table#tableMenu{
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.tr{
+    display: block;
+    border-right: 1px solid dimgray;
+}
