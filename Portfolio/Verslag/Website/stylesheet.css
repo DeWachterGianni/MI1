@@ -42,13 +42,27 @@ div {
 
 /* TABLE FROM THE MENU SECTION*/
 
-table#tableMenu{
+table{
+    margin: 0 auto;
+    margin-bottom: 20px;
     text-align: center;
     background-color: white;
-    padding: 10px;
+    border: 1px solid white;
+    border-collapse: collapse;
 }
 
-.tr{
-    display: block;
-    border-right: 1px solid dimgray;
+tr:nth-child(odd){
+    border-bottom: 1px solid White;
+}
+
+th{
+    text-align: center;
+    border-bottom: 1px solid white;
+    color: white;
+    background-color: black;
+}
+
+td{
+    background-color: #7BCC7D;
+    border-right: 1px solid white;
 }
