@@ -1,0 +1,87 @@
+/* BACKGROUND */
+
+body {
+    background-color: #1E1E1E;
+}
+
+.content {
+    margin-left: 18%;
+    margin-right: 18%;
+    width: 64%;
+    margin-top: 25px;
+    background-color: white;  
+}
+
+/* NAV BAR */
+
+.nav{
+    margin-top: 25px;
+    margin-left: 18%;
+    margin-right: 18%;
+    width: 64%;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover{
+    background-color: #111;
+}
+
+.nav li a:active{
+     background-color: #111;
+}
+
+/* TABLE FROM THE MENU SECTION */
+
+table {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #111;
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+    border-bottom: 1px solid #111;
+}
+
+th {
+    text-align: center;
+    border-bottom: 1px solid #111;
+    color: white;
+    background-color: #333;
+}
+
+td {
+    background-color: white;
+    border-right: 1px solid #111;
+}
+
+/* CONTACT */
+
+form {
+    text-align: center;
+    margin-top 25px;
+}
