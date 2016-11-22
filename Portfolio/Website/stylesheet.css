@@ -12,6 +12,19 @@ body {
     background-color: white;  
 }
 
+.contact{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    margin-top: 25px;
+    background-color: #E5E5E5;  
+}
+
+/* HEADERS */
+h3{
+    text-align: center;
+}
+
 /* NAV BAR */
 
 .nav{
@@ -51,7 +64,7 @@ body {
 
 /* TABLE FROM THE MENU SECTION */
 
-table {
+table.menu {
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
@@ -63,25 +76,60 @@ table {
     border-collapse: collapse;
 }
 
-tr:nth-child(odd) {
+table.menu tr:nth-child(odd) {
     border-bottom: 1px solid #111;
 }
 
-th {
+table.menu th {
     text-align: center;
     border-bottom: 1px solid #111;
     color: white;
     background-color: #333;
 }
 
-td {
+table.menu td {
     background-color: white;
     border-right: 1px solid #111;
+}
+
+/* TABLE FOR THE OPENINGS HOURS */
+
+table.openingsuren {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #111;
+    border-collapse: collapse;
+}
+
+table.openingsuren th {
+    text-align: center;
+    border-bottom: 1px solid #111;
+    color: white;
+    background-color: #333;
+}
+
+table.openingsuren td {
+    background-color: white;
+    border-right: 1px solid #111;
+}
+
+/* MAP */
+
+#map {
+    margin: 0 auto 0 auto;
+    margin-bottom: 25px;
+    height: 350px;
+    width: 80%;
 }
 
 /* CONTACT */
 
 form {
     text-align: center;
-    margin-top 25px;
+    margin-bottom: 25px;
 }

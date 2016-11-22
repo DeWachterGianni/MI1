@@ -24,21 +24,47 @@
 
     <div class=content>
         <br>
-        <form action="aantesprekenscript.php" method="post">
-            <label for="name">Naam:</label>
-            <br />
-            <input id="name" class="input" name="name" type="text" value="" size="30" />
-            <br/>
-            <label for="email">Email adres:</label>
-            <br />
-            <input id="email" class="input" name="email" type="text" value="" size="30" />
-            <br/>
-            <label for="message">Bericht:</label>
-            <br />
-            <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea>
-            <br/>
-            <input id="submit_button" type="submit" value="Stuur bericht" />
-        </form>
+        <div id="map" alt="Google Map locatie van frituur"></div>
+        <div class=contact>
+            <h3>Contacteer ons</h3>
+            <form action="aantesprekenscript.php" method="post">
+                <label for="name">Naam:</label>
+                <br/>
+                <input id="name" class="input" name="name" type="text" value="" size="30" />
+                <br/>
+                <label for="email">Email adres:</label>
+                <br />
+                <input id="email" class="input" name="email" type="text" value="" size="30" />
+                <br/>
+                <label for="message">Bericht:</label>
+                <br/>
+                <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea>
+                <br/>
+                <input id="submit_button" type="submit" value="Stuur bericht" />
+            </form>
+        </div>
+        <!-- SCRIPTS FOR GOOGLE MAP -->
+        <script>
+            function initMap() {
+                var uluru = {
+                    lat: 51.0079614,
+                    lng: 4.4188575
+                };
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 16,
+                    center: uluru
+                });
+                var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                });
+            }
+
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqaUjxlN9i0IUwz7QDWYDst4AsPIenUqE&callback=initMap">
+
+
+        </script>
         <br>
     </div>
 
