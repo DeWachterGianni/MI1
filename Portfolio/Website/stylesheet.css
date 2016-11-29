@@ -58,8 +58,8 @@ h3{
     background-color: #111;
 }
 
-.nav li a:active{
-     background-color: #111;
+.nav li a:focus{
+     background-color: pink;
 }
 
 /* TABLE FROM THE MENU SECTION */
