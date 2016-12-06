@@ -5,6 +5,7 @@ body {
 }
 
 .content {
+    border-radius: 10px;
     margin-left: 18%;
     margin-right: 18%;
     width: 64%;
@@ -13,11 +14,13 @@ body {
 }
 
 .contact{
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding-top: 25px;
+    padding-bottom: 25px;
     margin-top: 25px;
-    background-color: #E5E5E5;  
+    background-color: #D8D8D8;  
 }
 
 /* HEADERS */
@@ -35,6 +38,7 @@ h3{
 }
 
 .nav ul {
+    border-radius: 10px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -58,92 +62,95 @@ h3{
     background-color: #111;
 }
 
-.nav li a:focus{
-     background-color: pink;
-}
-
 /* TABLE FROM THE MENU SECTION */
+/* THIS WILL AFFECT THE SECTIONS SNACKS, HAMBURGERS... */
 
-table.menu {
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    text-align: center;
-    background-color: white;
-    border: 1px solid #111;
-    border-collapse: collapse;
-}
-
-table.menu tr:nth-child(odd) {
-    border-bottom: 1px solid #111;
-}
-
-table.menu th {
-    text-align: center;
-    border-bottom: 1px solid #111;
-    color: white;
+#Menu #small div{
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     background-color: #333;
 }
 
-table.menu td {
-    background-color: white;
-    border-right: 1px solid #111;
+#Menu #small p:first-child{
+    padding-top: 25px;
+}
+
+#Menu #small p:last-child{
+    padding-bottom: 25px;
+}
+
+#small p{
+    text-align: center;
+    color: white;
 }
 
 /* TABLE FOR THE OPENINGS HOURS */
 
-table.openingsuren {
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    text-align: center;
-    background-color: white;
-    border: 1px solid #111;
-    border-collapse: collapse;
-}
-
-table.openingsuren th {
-    text-align: center;
-    border-bottom: 1px solid #111;
-    color: white;
-    background-color: #333;
-}
-
-table.openingsuren td {
-    background-color: white;
-    border-right: 1px solid #111;
-}
-
-#Snacks p{
-    width: 25%;
-    height: 4em;
-    line-height: 2em;
-    min-width: 15em;
-    max-width: 35em;
-    border: solid black 1px;
-    display: inline-block;
-    float: left;
-}
-
-p{
-    text-align: center;
-}
+/* TODO */
 
 /* MAP */
 
 #map {
     margin: 0 auto 0 auto;
     height: 350px;
-    width: 80%;
+    width: 90%;
 }
 
 /* CONTACT */
 
 form {
+    display: block;
     text-align: center;
     margin-bottom: 25px;
+}
+
+/* ON PC */
+
+#Menu #big div{
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #333;
+}
+
+#Menu #big .Row{
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #333;
+    width: inherit;
+    margin-right: 0px;
+}
+
+#Menu #big .Row div{
+    border-radius: 10px;
+    background-color: white;
+    color: white;
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 10px;   
+    margin-right: 0px;
+}
+
+#Menu #big .Row div:last-child{
+    border-radius: 10px;
+    background-color: white;
+    color: white;
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 10px;   
+    margin-right: 10px;
+}
+
+#Menu #big .Row div p{
+    color: black;
 }
