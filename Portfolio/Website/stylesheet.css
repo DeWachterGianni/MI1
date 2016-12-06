@@ -118,11 +118,25 @@ table.openingsuren td {
     border-right: 1px solid #111;
 }
 
+#Snacks p{
+    width: 25%;
+    height: 4em;
+    line-height: 2em;
+    min-width: 15em;
+    max-width: 35em;
+    border: solid black 1px;
+    display: inline-block;
+    float: left;
+}
+
+p{
+    text-align: center;
+}
+
 /* MAP */
 
 #map {
     margin: 0 auto 0 auto;
-    margin-bottom: 25px;
     height: 350px;
     width: 80%;
 }
