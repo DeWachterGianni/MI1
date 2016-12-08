@@ -152,5 +152,87 @@ form {
 }
 
 #Menu #big .Row div p{
-    color: black;
+    color: black;   
 }
+
+#Menu #small .Row div p{
+    color: black;   
+    text-align: left;
+}
+
+
+/* FOTO PAGINA */
+#FotoAlbum img{
+    display: block;
+    margin: 0 auto;
+    width: 65%;
+    height: 65%;
+    border-radius: 10%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* NIEUW ADAPTIVE MENU */
+
+#Menu #Adaptive div{
+    display: block;
+}
+
+#Menu #adaptive .icon p{
+    
+}
+#Menu #adaptive .name p{
+    float: left;
+    text-align: left;
+    padding-right: 20px;
+    line-height: 20px;
+    color: red;
+}
+#Menu #adaptive .pric p{
+    float: right;
+    text-align: right;
+    padding-right: 20px;
+    line-height: 20px;
+    color: orange;
+}
+
+#Menu #adaptive div{
+    border-radius: 10px;
+    background-color: pink;
+    width: 200px;
+    margin-left: 30px;
+    display: inline-block;
+    line-height: 0;
+    word-wrap: break-word;
+    text-align: left;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
