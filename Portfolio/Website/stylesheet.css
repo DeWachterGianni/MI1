@@ -86,6 +86,11 @@ h3{
     color: white;
 }
 
+#Menu #small .Row div p{
+    color: black;   
+    text-align: left;
+}
+
 /* TABLE FOR THE OPENINGS HOURS */
 
 /* TODO */
@@ -106,62 +111,8 @@ form {
     margin-bottom: 25px;
 }
 
-/* ON PC */
-
-#Menu #big div{
-    border-radius: 10px;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: #333;
-}
-
-#Menu #big .Row{
-    border-radius: 10px;
-    display: inline-block;
-    background-color: #333;
-    width: inherit;
-    margin-right: 0px;
-}
-
-#Menu #big .Row div{
-    border-radius: 10px;
-    background-color: white;
-    color: white;
-    width: 75px;
-    height: 75px;
-    float: left;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    text-align: center;
-    margin-left: 10px;   
-    margin-right: 0px;
-}
-
-#Menu #big .Row div:last-child{
-    border-radius: 10px;
-    background-color: white;
-    color: white;
-    width: 75px;
-    height: 75px;
-    float: left;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    margin-left: 10px;   
-    margin-right: 10px;
-}
-
-#Menu #big .Row div p{
-    color: black;   
-}
-
-#Menu #small .Row div p{
-    color: black;   
-    text-align: left;
-}
-
-
 /* FOTO PAGINA */
+
 #FotoAlbum img{
     display: block;
     margin: 0 auto;
@@ -183,41 +134,6 @@ h1{
 
 
 
-/* NIEUW ADAPTIVE MENU */
-
-#Menu #Adaptive div{
-    display: block;
-}
-
-#Menu #adaptive .icon p{
-    
-}
-#Menu #adaptive .name p{
-    float: left;
-    text-align: left;
-    padding-right: 20px;
-    line-height: 20px;
-    color: red;
-}
-#Menu #adaptive .pric p{
-    float: right;
-    text-align: right;
-    padding-right: 20px;
-    line-height: 20px;
-    color: orange;
-}
-
-#Menu #adaptive div{
-    border-radius: 10px;
-    background-color: pink;
-    width: 200px;
-    margin-left: 30px;
-    display: inline-block;
-    line-height: 0;
-    word-wrap: break-word;
-    text-align: left;
-    position: relative;
-}
 
 
 
