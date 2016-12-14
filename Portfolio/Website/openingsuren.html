@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="/pics/icon.png" />
 </head>
 
-<body>
+<body onload="getDayOfWeek();">
     <header>
         <nav class=nav>
             <ul>
@@ -25,76 +25,63 @@
         </nav>
     </header>
 
+    <div class=content>
+        <br>
+       
+        <script>
+            function getDayOfWeek() {
+                var d = new Date();
+                var weekday = new Array(7);
+                weekday[0] = "Zondag";
+                weekday[1] = "Maandag";
+                weekday[2] = "Dinsdag";
+                weekday[3] = "Woensdag";
+                weekday[4] = "Donderdag";
+                weekday[5] = "Vrijdag";
+                weekday[6] = "Zaterdag";
 
-    <body onload="getDayOfWeek();">
+                var n = weekday[d.getDay()];
+                document.getElementById("DayOfWeek").innerHTML = n;
+            }
 
-        <div class=content>
-            <br>
+        </script>
+
+        <div id="openingsuren">
             <p>Vandaag zijn we</p>
             <p id="DayOfWeek"></p>
-
-            <script>
-                function getDayOfWeek() {
-                    var d = new Date();
-                    var weekday = new Array(7);
-                    weekday[0] = "Zondag";
-                    weekday[1] = "Maandag";
-                    weekday[2] = "Dinsdag";
-                    weekday[3] = "Woensdag";
-                    weekday[4] = "Donderdag";
-                    weekday[5] = "Vrijdag";
-                    weekday[6] = "Zaterdag";
-
-                    var n = weekday[d.getDay()];
-                    document.getElementById("DayOfWeek").innerHTML = n;
-                }
-            </script>
-            
-            <table class=openingsuren>
-                <tr>
-                    <th colspan="2">Openingsuren</th>
-                    <th>16</th>
-                    <th>17</th>
-                    <th>18</th>
-                    <th>19</th>
-                    <th>20</th>
-                    <th>21</th>
-                    <th>22</th>
-                    <th>23</th>
-                </tr>
-                <tr>
-                    <td>Maandag</td>
-                    <td>Gesloten</td>
-                </tr>
-                <tr>
-                    <td>Dinsdag</td>
-                    <td>Gesloten</td>
-                </tr>
-                <tr>
-                    <td>Woensdag</td>
-                    <td>17.00h - 22.00h</td>
-                </tr>
-                <tr>
-                    <td>Donderdag</td>
-                    <td>17.00h - 22.00h</td>
-                </tr>
-                <tr>
-                    <td>Vrijdag</td>
-                    <td>17.00h - 22.00h</td>
-                </tr>
-                <tr>
-                    <td>Zaterdag</td>
-                    <td>17.00h - 22.00h</td>
-                </tr>
-                <tr>
-                    <td>Zondag</td>
-                    <td>17.00h - 22.00h</td>
-                </tr>
-            </table>
-
-            <br>
+            <div class="line">
+                <div class="day">Maandag</div>
+                <div class="time">Gesloten</div>
+            </div>
+            <div class="line">
+                <div class="day">Dinsdag</div>
+                <div class="time">Gesloten</div>
+            </div>
+            <div class="line">
+                <div class="day">Woensdag</div>
+                <div class="time">17h - 22h</div>
+            </div>
+            <div class="line">
+                <div class="day">Donderdag</div>
+                <div class="time">17h - 22h</div>
+            </div>
+            <div class="line">
+                <div class="day">Vrijdag</div>
+                <div class="time">17h - 22h</div>
+            </div>
+            <div class="line">
+                <div class="day">Zaterdag</div>
+                <div class="time">17h - 22h</div>
+            </div>
+            <div class="line">
+                <div class="day">Zondag</div>
+                <div class="time">17h - 22h</div>
+            </div>
         </div>
 
-    </body>
+        <br>
+    </div>
+
+</body>
 
 </html>
