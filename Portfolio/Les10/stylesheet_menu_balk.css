@@ -1,0 +1,33 @@
+ul {
+    background-color: lightgray;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li { 
+    float: left;   
+}
+
+li a {
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+#huidig, li a:hover{
+    background-color: darkgray;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 500px) {
+    ul {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    li { 
+        width: 100%;
+    }
+}

@@ -1,0 +1,18 @@
+ul {
+    background: #3399ff;
+    padding: 20px;
+    list-style-image: url('../Img/ster.png')
+}
+
+ul li {
+    background: #cce5ff;
+    margin: 5px;
+    color: orange;
+}
+
+dl {
+    background: #bbb5ff;
+    color: aqua;
+}
+
+/* Dit is een test op style NIET op kleuren paletten */

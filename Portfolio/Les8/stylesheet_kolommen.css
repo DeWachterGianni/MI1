@@ -1,0 +1,42 @@
+#kop {
+    background: green;
+    text-align: center;
+    height: 5%;
+}
+
+#links {
+    float: left;
+    width: 50%;
+    height: 90%;
+    background: red;
+    text-align: center;
+}
+
+#rechts {
+    float: right;
+    width: 50%;
+    height: 90%;
+    background: orange;
+    text-align: center;
+}
+
+#voet {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    background: Blue;
+    text-align: center;
+}
+
+html, body{
+    height:  100%;
+    margin:0;
+    padding:0;
+}
+
+p {
+    color: white;
+    margin: 0;
+    padding: 0;
+}

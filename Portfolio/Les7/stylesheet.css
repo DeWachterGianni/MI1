@@ -1,0 +1,180 @@
+/* BACKGROUND */
+
+body {
+    background-color: #1E1E1E;
+}
+.content {
+    border-radius: 10px;
+    margin-left: 18%;
+    margin-right: 18%;
+    width: 64%;
+    margin-top: 25px;
+    background-color: white;
+}
+.contact {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 25px;
+    background-color: #D8D8D8;
+}
+.content p {
+    text-align: center;
+}
+
+/* HEADERS */
+
+h3 {
+    text-align: center;
+}
+
+/* NAV BAR */
+
+.nav {
+    margin-top: 25px;
+    margin-left: 18%;
+    margin-right: 18%;
+    width: 64%;
+}
+.nav ul {
+    border-radius: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.nav li {
+    float: left;
+}
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav li a:hover {
+    background-color: #111;
+}
+
+/* THIS WILL AFFECT THE SECTIONS SNACKS, HAMBURGERS... */
+
+#Menu div {
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #333;
+}
+#Menu p:first-child {
+    padding-top: 25px;
+}
+#Menu p:last-child {
+    padding-bottom: 25px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+#Menu .Row div p {
+    color: black;
+    text-align: left;
+}
+
+/* MAP */
+
+#map {
+    margin: 0 auto 0 auto;
+    height: 350px;
+    width: 90%;
+}
+
+/* CONTACT */
+
+form {
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* FOTO PAGINA */
+
+
+
+#FotoAlbum .set{
+    background-color: #333;
+    margin-left: 75px;
+    margin-right: 75px;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+#FotoAlbum img {
+    display: block;
+    margin: 0 auto;
+    width: 65%;
+    height: 65%;
+    border-radius: 15px;
+}
+#FotoAlbum .set .img{
+    
+}
+
+#FotoAlbum .set .des{
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* OPENINGS UREN */
+
+#openingsuren .line {
+    color: white;
+    background-color: #333;
+    margin-left: 19%;
+    margin-right: 19%;
+    border-radius: 10px;
+    display: inline-block;
+    width: 32%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#openingsuren .line div{
+    text-align: center;
+}
+
+#openingsuren .line .day{
+    padding-left: 15px;
+    float: left;
+}
+
+#openingsuren .line .time{
+    padding-right: 15px;
+    float: right;
+}
+
+#openingsuren p{
+    color: black;
+}
+
+
+
+
+
