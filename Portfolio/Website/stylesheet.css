@@ -23,42 +23,52 @@ h3 {
 
 p {
     text-align: center;
-    color: white;
+    color: black;
 }
 
 /* Algemene content van de pagina */
 
-.content {
+#content {
     border-radius: 10px;
-    margin-left: 18%;
-    margin-right: 18%;
-    width: 64%;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
     margin-top: 25px;
     background-color: white;
+    max-width: 800px;
 }
 
-/* Contact formulier */
+/* Subcontent */
 
-.contact {    
+#subContent p, #subContent, .set{
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
     padding-top: 25px;
     padding-bottom: 25px;
     margin-top: 25px;
-    background-color: #D8D8D8;
+    background-color: #333;
+    border-radius: 25px;
+    color: white;
+}
+
+#subContent h3, table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Navigatie balk */
 
-.nav {
+nav {
     margin-top: 25px;
-    margin-left: 18%;
-    margin-right: 18%;
-    width: 64%;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-width: 800px;
 }
 
-.nav ul {
+nav ul {
     border-radius: 10px;
     list-style-type: none;
     margin: 0;
@@ -67,11 +77,11 @@ p {
     background-color: #333;
 }
 
-.nav li {
+nav li {
     float: left;
 }
 
-.nav li a {
+nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -86,7 +96,7 @@ p {
 /* Menu gedeeldte */
 
 #Menu div {
-    border-radius: 10px;
+    border-radius: 25px;
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
@@ -101,9 +111,8 @@ p {
     padding-bottom: 25px;
 }
 
-#Menu .Row div p {
-    color: black;
-    text-align: left;
+#Menu p{
+    color: white;
 }
 
 /* Map */
@@ -124,16 +133,6 @@ form {
 
 /* Foto album */
 
-#FotoAlbum .set{
-    background-color: #333;
-    margin-left: 75px;
-    margin-right: 75px;
-    border-radius: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-}
-
 #FotoAlbum img {
     display: block;
     margin: 0 auto;
@@ -145,6 +144,7 @@ form {
 #FotoAlbum .set .des{
     text-align: center;
     color: white;
+    margin-top: 15px;
 }
 
 /* Openingsuren */
@@ -179,10 +179,23 @@ form {
     color: black;
 }
 
+.newsArticle p {
+    color: white;
+}
+
+.newsArticle table{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+
 /* Smartphone kleiner dan 550px breedte */
 
 @media screen and (max-width: 550px) {
+    
     /* Fotos beter */
+    
     #FotoAlbum img {
         display: block;
         margin: 0 auto;
@@ -190,7 +203,8 @@ form {
         height: 95%;
         border-radius: 15px;
     }
-    #FotoAlbum .set{
+    
+    #FotoAlbum .set, .newsArticle{
         background-color: #333;
         margin-left: 15px;
         margin-right: 15px;
@@ -199,8 +213,10 @@ form {
         padding-bottom: 15px;
         margin-bottom: 15px;
     }
+   
     /* Content groter */
-    .content {
+    
+    #content {
         border-radius: 10px;
         margin-left: 5%;
         margin-right: 5%;
@@ -208,13 +224,25 @@ form {
         margin-top: 25px;
         background-color: white;
     }
+    
     /* Nav groter */
-    .nav {
+    
+    nav {
         margin-top: 25px;
         margin-left: 5%;
         margin-right: 5%;
         width: 90%;
     }
+    
+    /* Nieuws articles groter */
+    
+    .newsArticle table{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+    }
+    
 }
 
 
