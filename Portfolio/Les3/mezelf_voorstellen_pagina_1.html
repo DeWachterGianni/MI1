@@ -17,54 +17,43 @@
 
 </head>
 
-<style>
-    #map {
-        width: 100%;
-        height: 400px;
-    }
-
-</style>
-
 <body>
-    <center>
+    <h1><u>Over mezelf</u></h1>
 
-        <h1><u>Over mezelf</u></h1>
+    <h2>Naam</h2>
+    <p>Gianni De Wachter</p>
+    <img src="../Img/Ik.jpg" alt="Foto van mezelf" title="Foto van mezelf">
 
-        <h2>Naam</h2>
-        <p>Gianni De Wachter</p>
-        <img src="../Img/Ik.jpg" alt="Foto van mezelf" title="Foto van mezelf">
+    <h2>Woonplaats</h2>
+    <p>Sint-Katelijne-Waver</p>
 
-        <h2>Woonplaats</h2>
-        <p>Sint-Katelijne-Waver</p>
+    <div id="map"></div>
 
-        <div id="map"></div>
+    <h2>Vorig jaar</h2>
+    <p>Network &amp; IT te Coloma Plus Mechelen</p>
 
-        <h2>Vorig jaar</h2>
-        <p>Network &amp; IT te Coloma Plus Mechelen</p>
-
-        <h2>Hobby's</h2>
-        <a href="mezelf_voorstellen_pagina_2.html">Snowboarden</a>
+    <h2>Hobby's</h2>
+    <a href="mezelf_voorstellen_pagina_2.html">Snowboarden</a>
 
 
-        <script>
-            function initMap() {
-                var mapDiv = document.getElementById('map');
-                var map = new google.maps.Map(mapDiv, {
-                    center: {
-                        lat: 51.0709412,
-                        lng: 4.5179936
-                    },
-                    zoom: 14
-                });
-            }
+    <script>
+        function initMap() {
+            var mapDiv = document.getElementById('map');
+            var map = new google.maps.Map(mapDiv, {
+                center: {
+                    lat: 51.0709412,
+                    lng: 4.5179936
+                },
+                zoom: 14
+            });
+        }
 
-        </script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzjRvqch06PZMTuFqcn9QgZvTy4q7l80E&callback=initMap">
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzjRvqch06PZMTuFqcn9QgZvTy4q7l80E&callback=initMap">
 
 
-        </script>
+    </script>
 
-    </center>
 </body>
 
 </html>
